@@ -1,0 +1,87 @@
+
+
+.box > h1 {
+    
+      
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   padding-left: 100px;
+    font-size: 10em;
+    
+    letter-spacing: 0.8em;
+
+    color: #EBF3E8;
+    
+   /* animation: scale 2s ease-out; */
+    
+    
+}
+
+.event_cointer{
+    /* margin-top: 4em; */
+    background-color: rgba(127, 219, 255, 0.695);
+    
+}
+.event_cointer h1{
+    /* margin-top: 2em; */
+    padding-top: 2em;
+   font-size: 4em;
+   text-align: center;
+   /* padding: 15px; */
+   /* background-color: black; */
+   color: white;
+   
+
+    
+}
+
+
+
+.event_content .text{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.event_content .text p{
+    padding: 2em;
+    text-align: justify;
+    /* margin: 5em; */
+    line-height: 2em;
+
+}
+
+.event_content .video{
+    height: 80vh;
+    position: relative;
+}
+
+.event_content .video video{
+    /* height: 100%;
+    width: 100%; */
+    position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit:contain;
+
+}
+
+
+/* @keyframes scale {
+    from{
+        font-size: 1em;
+    }
+    
+    to{
+        font-size: 10em;
+    }
+    
+} */

@@ -1,0 +1,54 @@
+ .about{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    padding: 30px;
+    margin-top:8vh;
+    background-color: rgba(240, 255, 255, 0.682);
+}
+
+
+.about h1 {
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 20px;
+   
+}
+
+.about p{
+    line-height: 25px;
+    font-size: 16px;
+
+}
+
+.context{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.context .miss,.context .viss{
+  
+    width: 30%;
+    background-color: rgba(240, 255, 255, 0.682);
+    padding: 20px;
+    margin-top:5vh;
+}
+
+.context h1{
+    font-size: 22px;
+    text-decoration: underline;
+    margin-bottom: 10px;
+   
+
+}
+
+.about{
+    min-height: 300px;
+}
+
+
+
